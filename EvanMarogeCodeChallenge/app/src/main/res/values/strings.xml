@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EvanMarogeCodeChallenge</string>
+    <string name="choose_font">Choose Font:</string>
+    <string name="type_something">Type Something</string>
+    <string name="submit">Submit</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="change_font">Change Font</string>
+</resources>
