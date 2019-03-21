@@ -9,7 +9,7 @@ Detail:
 
 3. On Item Listner for the Spinner is used by user to change the font. When user is ready to commit, a button is used to change font of text when it is clicked. 
 
-4. AsyncTask was used to download the fonts. 
+4. AsyncTask was used to download the fonts files. 
 
 5. Retrofit @POST is used to send Infromation object that is created to the server. 
 
