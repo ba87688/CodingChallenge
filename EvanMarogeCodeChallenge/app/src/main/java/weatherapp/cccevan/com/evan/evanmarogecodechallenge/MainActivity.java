@@ -274,9 +274,10 @@ public class MainActivity extends AppCompatActivity {
             int position = -1;
             for (int i = 0; i < iles.length; i++) {
                 String filename2 = iles[i].toString().substring(iles[i].toString().lastIndexOf('/') + 1, iles[i].toString().length());
-                Log.d("PIC", "TWOOOOO: " + filename2);
+                Log.d("PIC1", "TWOOOOO: " + filename2);
+                Log.d("PIC2", "TWOOOOO: " + string);
                 if (filename2.equals(string)) {
-                    Log.d("PIC", "The string is : " + string);
+                    Log.d("POSITION", "The position is : " + i);
                     position = i;
                 }
 
@@ -290,7 +291,7 @@ public class MainActivity extends AppCompatActivity {
 //                Typeface tf = Typeface.createFromFile(file1.getPath());
                 Log.d("Loser", "onPostExecute: " + iles[position].toString());
 //                Typeface tf = Typeface.createFromFile(iles[position].getAbsolutePath());
-                Typeface tf = Typeface.createFromFile(new File(iles[position].getPath()));
+                Typeface tf = Typeface.createFromFile(iles[position]);
 
                 textView.setTypeface(tf);
             }
